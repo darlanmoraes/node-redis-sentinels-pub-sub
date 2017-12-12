@@ -19,7 +19,7 @@ if (validation.error) {
 
 const envVars = validation.value;
 
-export const properties = {
+export const vars = {
   server: {
     port: envVars.PORT
   },
